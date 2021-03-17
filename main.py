@@ -20,6 +20,16 @@ estados = { '0' :['4'],
 
 #print(getHijos('5', estados))
 
+<<<<<<< Updated upstream
 busqueda_amplitud('0', '3', estados)
 
 
+=======
+res1 = busqueda_amplitud('0', '3', estados)
+res2 = busqueda_amplitud('0', '12', estados)
+print("\n")
+if(res1 > res2):
+    print("El camino optimo a nuestro objetivo tiene solo: ", res2 , "pasos")
+else:
+    print("El camino optimo a nuestro objetivo tiene solo: ", res1 , "pasos")
+>>>>>>> Stashed changes
