@@ -45,9 +45,17 @@ def busqueda_amplitud(inicial, objetivo, estados):
             print("Maximo tamaño de del stack: ", tam, " bytes")
             print("Se preciso de ", cont, " iteraciones para encontrar la solucion")
             print("la solución tiene ", len(camino), " pasos")
+<<<<<<< Updated upstream
             return(cont)
+=======
+            return(len(camino)-1)
+>>>>>>> Stashed changes
         else:
             for h in getHijos(nodo, estados):
                 aux = deepcopy(camino)
                 aux.append(h)
+<<<<<<< Updated upstream
                 stack.append(aux)
+=======
+                stack.append(aux) 
+>>>>>>> Stashed changes
